@@ -82,22 +82,29 @@ ts.head()
 
 
 ```python
+# What is the frequency of the time series
+```
+
+
+```python
 # Plot the series
 import matplotlib.pyplot as plt
 
 ```
 
+What types of patterns do you see in this data?
+- Trend?
+- Seasonality?
+- Change in variance?
+- Cyclical?
 
-```python
-# What is the shape?
-ts.shape
-```
+# __SOLUTION__
 
-
-
-
-    (3650, 1)
-
+What types of patterns do you see in this data?
+- Trend - doesn't seem to be
+- Seasonality- definitely seems to have yearly seasonality
+- Change in variance - Variance looks constant
+- Cyclical - does not look cyclical
 
 
 
