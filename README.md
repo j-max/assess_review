@@ -82,7 +82,14 @@ ts.head()
 
 
 ```python
-# What is the shape
+# Plot the series
+import matplotlib.pyplot as plt
+
+```
+
+
+```python
+# What is the shape?
 ts.shape
 ```
 
@@ -95,7 +102,14 @@ ts.shape
 
 
 ```python
-ts.isna().sum()
+# What is the period of the sample?
+
+```
+
+
+```python
+# How can you upsample the data
+
 ```
 
 
@@ -105,8 +119,3 @@ ts.isna().sum()
     dtype: int64
 
 
-
-
-```python
-
-```
