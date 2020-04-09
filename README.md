@@ -5,6 +5,7 @@
 ```python
 import pandas as pd
 import numpy as np
+
 ```
 
 
@@ -258,6 +259,21 @@ First code a Count Vectorizer, and change some of the parameters to do different
 ```
 
  ## What is the cosine similarity of the texts based on CV
+
+
+```python
+# your code here
+```
+
+**_Term Frequency_** is calculated with the following formula:
+
+$$\large Term\ Frequency(t) = \frac{number\ of\ times\ t\ appears\ in\ a\ document} {total\ number\ of\ terms\ in\ the\ document} $$ 
+
+**_Inverse Document Frequency_** is calculated with the following formula:
+
+$$\large IDF(t) = log_e(\frac{Total\ Number\ of\ Documents}{Number\ of\ Documents\ with\ t\ in\ it})$$
+
+The **_TF-IDF_** value for a given word in a given document is just found by multiplying the two!
 
 ## Perform same transformation with TFIDF
 
